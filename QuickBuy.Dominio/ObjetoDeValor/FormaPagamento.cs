@@ -8,20 +8,19 @@
 
         public bool EhBoleto
         {
-            get { return Id == (Int)Enumerados.TipoFormaPagamentoEnum.Boleto; }
+            get { return Id == (int)Enumerados.TipoFormaPagamentoEnum.Boleto; }
         }
-
         public bool EhCartaoCredito
         {
-            get { return Id == (Int)Enumerados.TipoFormaPagamentoEnum.CartaoCredito; }
+            get { return Id == (int)Enumerados.TipoFormaPagamentoEnum.CartaoCredito; }
         }
         public bool EhDeposito
         {
-            get { return Id == (Int)Enumerados.TipoFormaPagamentoEnum.Deposito; }
+            get { return Id == (int)Enumerados.TipoFormaPagamentoEnum.Deposito; }
         }
         public bool NaoFoiDefinido
         {
-            get { return Id == (Int)Enumerados.TipoFormaPagamentoEnum.NaoDefinico; }
+            get { return Id == (int)Enumerados.TipoFormaPagamentoEnum.NaoDefinico; }
         }
     }
 }
